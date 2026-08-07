@@ -87,7 +87,7 @@ The theory behind the quirq, from first principles to worked examples.
 
 - 🌐 [xo.builders](https://xo.builders) - platform
 - 📖 [docs.xo.builders](https://docs.xo.builders) - documentation
-- 🐦 [@xo_builders](https://x.com/xo_builders) - X / Twitter
+- 🐦 [@quirq_ai](https://x.com/quirq_ai) - X / Twitter
 - 💼 [LinkedIn](https://linkedin.com/company/xo-builders)
 - 📺 [YouTube](https://www.youtube.com/@xo_builders)
 - ✉️ [team@xo.builders](mailto:team@xo.builders)
