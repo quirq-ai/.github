@@ -4,71 +4,96 @@
 
 <br />
 
-<h1 align="center">quirq</h1>
+<h3 align="center">quirq</h3>
 
 <p align="center">
-  <strong>Tokens meter what your AI consumes. A quirq meters what it delivered.</strong><br />
-  The unit of measurement for AI's business impact.
+  Tokens meter what AI consumes. Quirqs meter what it delivers.
 </p>
 
 <p align="center">
-  <a href="https://www.quirq.ai">Website</a> ·
-  <a href="https://www.quirq.ai/research/the-quirq">Research</a> ·
-  <a href="https://www.quirq.ai/demo">Demo</a> ·
-  <a href="https://www.quirq.ai/whitepaper">Whitepaper</a> ·
-  <a href="https://www.quirq.ai/dashboard">Dashboard</a>
+  <a href="https://app.xo.builders/sign-up"><strong>Launch free →</strong></a>
+</p>
+
+<p align="center">
+  <a href="https://docs.xo.builders">Docs</a> ·
+  <a href="https://www.xo.builders/whitepaper">Whitepaper</a> ·
+  <a href="https://docs.xo.builders/research">Research</a> ·
+  <a href="https://www.quirq.ai">quirq.ai</a> ·
+  <a href="mailto:team@xo.builders">team@xo.builders</a>
 </p>
 
 ---
 
-## What is a quirq?
+## What is quirq?
 
-Every consequential technology gets two meters: one for what it consumes, one for what it produces. **The token** is the input meter - it counts compute. **The quirq** is the missing output meter - it measures verified, delivered value.
+quirq is the measurement layer for AI agent work, built by [XO Labs](https://xo.builders). The **quirq** is the output meter dual to the token: budget an outcome, verify completion, mint delivered value.
 
-A quirq is minted, never self-reported.
+- A human owner sets a budget `B` and a machine-checkable definition of done
+- The environment snapshots state before (`S₀`) and after (`S₁`) execution
+- Verification mints `Q = V · B` quirqs - tamper-evident, never self-reported
 
-```
-Q  = V * B  released by verification against captured state
-```
-
-Divide the two meters and the numbers that have been missing appear: **cost per quirq**, **quirqs per dollar (QER)**, **quirqs per kWh**. Track them over time and "is AI working here?" becomes a trend line instead of an anecdote.
-
-→ Read the full research note: [**The quirq**](https://www.quirq.ai/research/the-quirq)
+The result: **cost per quirq**, **quirqs per dollar (QER)**, **quirqs per kWh** - numbers a CFO can read alongside payroll and vendor spend.
 
 ---
 
-## Repositories
+## Platform
 
-| Repo | Description |
+**[XO](https://xo.builders)** is where quirq runs. Launch an agent workspace in one click, connect your own model, and every session is automatically measured.
+
+| | |
 |---|---|
-| [`quirq_ai`](https://github.com/quirq-ai/quirq_ai) | Core quirq implementation - TypeScript |
-| [`xo-space`](https://github.com/quirq-ai/xo-space) | Agentic workspace environment |
-| [`environment`](https://github.com/quirq-ai/environment) | Snapshot and verification infrastructure |
+| 🚀 **[Launch your first agent](https://app.xo.builders/sign-up)** | Free tier, no card, live in ~5 min |
+| 📖 **[Read the docs](https://docs.xo.builders)** | Guides, API reference, templates |
+| 🔌 **[API reference](https://docs.xo.builders/api-reference)** | XO Cowork API + MCP server |
+| 📊 **[Visualize your numbers](https://www.xo.builders/whitepaper/visualize)** | Model your own efficiency gains |
 
----
+### Agent templates
 
-## Get started
-
-```bash
-# Explore the quirq interactively
-open https://www.quirq.ai/journey/read/the-quirq
-```
-
-- [**Demo**](https://www.quirq.ai/demo) — See quirq accounting in action
-- [**Dashboard**](https://www.quirq.ai/dashboard) — The company ledger a team reads monthly
-- [**Whitepaper**](https://www.quirq.ai/whitepaper) — Full technical treatment
-- [**Calculus**](https://www.quirq.ai/research/the-quirq-calculus) — Every calculation in quirq accounting
+| Template | Description |
+|---|---|
+| [Cowork](https://docs.xo.builders/docs/agents/xo-cowork) | Chat-first AI workspace with per-project memory |
+| [OpenClaw](https://docs.xo.builders/docs/agents/openclaw) | AI gateway with Telegram, WhatsApp, and Slack |
+| [Hermes](https://docs.xo.builders/docs/agents/hermes) | Messaging agent across all channels |
+| [Claude Code](https://docs.xo.builders/docs/agents/claude-code) | AI-assisted software development in a secure workspace |
+| [Antigravity](https://docs.xo.builders/docs/agents/antigravity) | Google's agent-first coding platform on XO |
 
 ---
 
 ## Research
 
-- [**The quirq**](https://www.quirq.ai/research/the-quirq) — The unit of account for AI's business impact
-- [**The quirq calculus**](https://www.quirq.ai/research/the-quirq-calculus) — Scoring, minting, cost models, and the energy bridge
-- [**The company dashboard**](https://www.quirq.ai/research/the-company-dashboard) — A worked quarter where token spend rose 83% while verified value per dollar rose 81%
+The theory behind the quirq, from first principles to worked examples.
+
+| | |
+|---|---|
+| [**The quirq**](https://www.quirq.ai/research/the-quirq) | Definition, the mint formula, and why the token can't do this job |
+| [**The quirq calculus**](https://www.quirq.ai/research/the-quirq-calculus) | Full math: scoring, cost model, QER, energy bridge |
+| [**The company dashboard**](https://www.quirq.ai/research/the-company-dashboard) | A worked quarter: token spend +83%, verified value per dollar +81% |
+| [**Whitepaper**](https://www.xo.builders/whitepaper) | Full treatment - contract theory, gaming, validation |
+| [**Research index**](https://docs.xo.builders/research) | All published notes |
+
+---
+
+## Open source
+
+| Repo | Description |
+|---|---|
+| [`quirq_ai`](https://github.com/quirq-ai/quirq_ai) | Core quirq TypeScript implementation |
+| [`xo-space`](https://github.com/quirq-ai/xo-space) | Agent workspace environment |
+| [`environment`](https://github.com/quirq-ai/environment) | Snapshot and verification infrastructure |
+
+---
+
+## Connect
+
+- 🌐 [xo.builders](https://xo.builders) - platform
+- 📖 [docs.xo.builders](https://docs.xo.builders) - documentation
+- 🐦 [@xo_builders](https://x.com/xo_builders) - X / Twitter
+- 💼 [LinkedIn](https://linkedin.com/company/xo-builders)
+- 📺 [YouTube](https://www.youtube.com/@xo_builders)
+- ✉️ [team@xo.builders](mailto:team@xo.builders)
 
 <br />
 
 <p align="center">
-  <sub>quirq | By <a href="https://quirq.ai">XO Labs</a></sub>
+  <sub>quirq · by <a href="https://xo.builders">XO Labs</a> · Hire the skill, not the hours.</sub>
 </p>
