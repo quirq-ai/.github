@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and help
+    url: https://github.com/quirq-ai/xo-space/discussions
+    about: Ask about setup, using XO Space, or a workflow.
+  - name: Security vulnerability
+    url: https://github.com/quirq-ai/.github/blob/main/SECURITY.md
+    about: Report a suspected vulnerability privately.
+  - name: Hosted accounts and other support
+    url: https://github.com/quirq-ai/.github/blob/main/SUPPORT.md
+    about: Find the right contact for hosted access, account questions, or documentation help.
