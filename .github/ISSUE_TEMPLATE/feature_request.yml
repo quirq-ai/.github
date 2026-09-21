@@ -1,0 +1,33 @@
+name: Feature request
+description: Describe a problem and the outcome you would like to achieve.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what would make your work better. Please check for an existing request and use the repository that owns the affected code.
+
+        If you are exploring an idea or need help with an existing workflow, [XO Space Discussions](https://github.com/quirq-ai/xo-space/discussions) is a good place to start.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe who encounters the problem and what is difficult today. A concrete example helps.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What would you be able to do, and how would you know the improvement worked?
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Possible approach or alternatives
+      description: Share any ideas, existing workarounds, or alternatives you have considered. A proposed implementation is optional.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add relevant links, examples, or screenshots. Remove credentials, personal information, and private project content before sharing.

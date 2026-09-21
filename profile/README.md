@@ -1,99 +1,80 @@
 <p align="center">
-  <img src="https://quirq.ai/research/the-quirq.jpg" alt="A faceted glass solid in darkness, splitting light into full spectrum bands." width="100%" />
+  <a href="https://www.quirq.ai/">
+    <img src="https://raw.githubusercontent.com/quirq-ai/.github/main/profile/assets/quirq-banner.png" alt="A glass ribbon refracting light into the quirq spectrum" width="100%">
+  </a>
 </p>
 
-<br />
-
-<h3 align="center">quirq</h3>
+<h1 align="center">quirq</h1>
 
 <p align="center">
-  Tokens meter what AI consumes. Quirqs meter what it delivers.
-</p>
-
-<p align="center">
-  <a href="https://app.xo.builders/sign-up"><strong>Launch free →</strong></a>
+  <strong>Agent work environments, from your laptop to the cloud.</strong><br>
+  Give your agents a place to work. Keep projects, tools and activity in view.
 </p>
 
 <p align="center">
-  <a href="https://docs.xo.builders">Docs</a> ·
-  <a href="https://www.xo.builders/whitepaper">Whitepaper</a> ·
-  <a href="https://docs.xo.builders/research">Research</a> ·
-  <a href="https://www.quirq.ai">quirq.ai</a> ·
-  <a href="mailto:team@xo.builders">team@xo.builders</a>
+  <a href="https://app.xo.builders/"><strong>Open the cloud app ↗</strong></a> ·
+  <a href="https://github.com/quirq-ai/xo-space#quick-start"><strong>Run Space locally</strong></a> ·
+  <a href="https://docs.xo.builders/">Documentation</a> ·
+  <a href="https://www.quirq.ai/">Website</a>
 </p>
 
----
+## A place for the work
 
-## What is quirq?
+Agent work spans repositories, runtimes and sessions. Quirq brings the environment and its project tools together, so you can:
 
-quirq is the measurement layer for AI agent work, built by [XO Labs](https://xo.builders). The **quirq** is the output meter dual to the token: budget an outcome, verify completion, mint delivered value.
+- **Organize projects** — browse files, explore their structure and follow Git history.
+- **See what's happening** — inspect project todos, recent activity and available session telemetry.
+- **Connect the tools** — configure supported agents and services for the environment where you work.
 
-- A human owner sets a budget `B` and a machine-checkable definition of done
-- The environment snapshots state before (`S₀`) and after (`S₁`) execution
-- Verification mints `Q = V · B` quirqs - tamper-evident, never self-reported
+## Choose your starting point
 
-The result: **cost per quirq**, **quirqs per dollar (QER)**, **quirqs per kWh** - numbers a CFO can read alongside payroll and vendor spend.
+| Start here | What you get |
+| --- | --- |
+| **XO Space** · local<br>[Install Space →](https://github.com/quirq-ai/xo-space#quick-start) | An open-source environment engine and browser interface for your projects and agent tools. |
+| **XO Swarm** · hosted<br>[Open Swarm →](https://app.xo.builders/) | A cloud application for creating, accessing and managing agent environments. |
 
----
+Space provides the environment layer; Swarm provides the hosted management route. Hosted access and available applications depend on your account and environment.
 
-## Platform
+Space has execution adapters for **Claude Code, Codex, OpenClaw, Hermes and Antigravity**. Session telemetry currently aggregates **Claude Code, Codex and Cursor**, with available data varying by runtime. See the [supported agents](https://github.com/quirq-ai/xo-space#supported-agents) for setup details.
 
-**[XO](https://xo.builders)** is where quirq runs. Launch an agent workspace in one click, connect your own model, and every session is automatically measured.
+### Try Space on your machine
 
-| | |
-|---|---|
-| 🚀 **[Launch your first agent](https://app.xo.builders/sign-up)** | Free tier, no card, live in ~5 min |
-| 📖 **[Read the docs](https://docs.xo.builders)** | Guides, API reference, templates |
-| 🔌 **[API reference](https://docs.xo.builders/api-reference)** | XO Cowork API + MCP server |
-| 📊 **[Visualize your numbers](https://www.xo.builders/whitepaper/visualize)** | Model your own efficiency gains |
+From the directory you want to use as your workspace:
 
-### Agent templates
+```sh
+curl -fsSL https://quirq.ai/install | sh
+```
 
-| Template | Description |
-|---|---|
-| [Cowork](https://docs.xo.builders/docs/agents/xo-cowork) | Chat-first AI workspace with per-project memory |
-| [OpenClaw](https://docs.xo.builders/docs/agents/openclaw) | AI gateway with Telegram, WhatsApp, and Slack |
-| [Hermes](https://docs.xo.builders/docs/agents/hermes) | Messaging agent across all channels |
-| [Claude Code](https://docs.xo.builders/docs/agents/claude-code) | AI-assisted software development in a secure workspace |
-| [Antigravity](https://docs.xo.builders/docs/agents/antigravity) | Google's agent-first coding platform on XO |
+Open **[localhost:5002/space/](http://localhost:5002/space/)** while the server is running. The installer requires Git and curl, sets up Python through uv, and starts Space in the foreground. Use macOS, Linux or Windows with WSL. Agent execution needs the relevant runtime and authentication.
 
----
+[Installation details](https://github.com/quirq-ai/xo-space/blob/main/INSTALLATION.md) · [What leaves your machine](https://github.com/quirq-ai/xo-space#what-leaves-your-machine)
 
-## Research
+## Explore the code
 
-The theory behind the quirq, from first principles to worked examples.
+| Repository | What's inside |
+| --- | --- |
+| [**xo-space**](https://github.com/quirq-ai/xo-space) | Environment API, agent adapters, project tools and the Space UI. |
+| [**docs**](https://github.com/quirq-ai/docs) | Documentation source for Space, hosted environments and research. |
+| [**quirq_ai**](https://github.com/quirq-ai/quirq_ai) | The Quirq website, research content and interactive explanations. |
 
-| | |
-|---|---|
-| [**The quirq**](https://www.quirq.ai/research/the-quirq) | Definition, the mint formula, and why the token can't do this job |
-| [**The quirq calculus**](https://www.quirq.ai/research/the-quirq-calculus) | Full math: scoring, cost model, QER, energy bridge |
-| [**The company dashboard**](https://www.quirq.ai/research/the-company-dashboard) | A worked quarter: token spend +83%, verified value per dollar +81% |
-| [**Whitepaper**](https://www.xo.builders/whitepaper) | Full treatment - contract theory, gaming, validation |
-| [**Research index**](https://docs.xo.builders/research) | All published notes |
+[Browse all repositories →](https://github.com/orgs/quirq-ai/repositories)
 
----
+## Build with us
 
-## Open source
+Reproducible bug reports, documentation fixes, runtime integrations and focused improvements are welcome. Start with the repository you want to improve and follow its contribution guide.
 
-| Repo | Description |
-|---|---|
-| [`quirq_ai`](https://github.com/quirq-ai/quirq_ai) | Core quirq TypeScript implementation |
-| [`xo-space`](https://github.com/quirq-ai/xo-space) | Agent workspace environment |
-| [`environment`](https://github.com/quirq-ai/environment) | Snapshot and verification infrastructure |
+[Contributing](https://github.com/quirq-ai/.github/blob/main/CONTRIBUTING.md) · [Space discussions](https://github.com/quirq-ai/xo-space/discussions) · [Get help](https://github.com/quirq-ai/.github/blob/main/SUPPORT.md) · [Report a security issue privately](https://github.com/quirq-ai/.github/blob/main/SECURITY.md)
+
+## Beyond activity: useful work
+
+Our research asks how to measure what agents deliver alongside what they consume. The **quirq** is a proposed unit of verified, human-valued work. The [whitepaper](https://www.quirq.ai/whitepaper) sets out the model, assumptions and validation questions; it is distinct from the activity and usage telemetry available in Space today.
+
+[Read the research →](https://www.quirq.ai/research)
 
 ---
-
-## Connect
-
-- 🌐 [xo.builders](https://xo.builders) - platform
-- 📖 [docs.xo.builders](https://docs.xo.builders) - documentation
-- 🐦 [@quirq_ai](https://x.com/quirq_ai) - X / Twitter
-- 💼 [LinkedIn](https://linkedin.com/company/xo-builders)
-- 📺 [YouTube](https://www.youtube.com/@xo_builders)
-- ✉️ [team@xo.builders](mailto:team@xo.builders)
-
-<br />
 
 <p align="center">
-  <sub>quirq · by <a href="https://xo.builders">XO Labs</a> · Hire the skill, not the hours.</sub>
+  quirq · by <a href="https://xo.builders/">XO Labs</a><br>
+  <a href="mailto:team@xo.builders">Contact the team</a> ·
+  <a href="https://x.com/quirq_ai">Follow on X</a>
 </p>
