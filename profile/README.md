@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://www.quirq.ai/">
-    <img src="https://raw.githubusercontent.com/quirq-ai/.github/main/profile/assets/quirq-banner.png" alt="A glass ribbon refracting light into the quirq spectrum" width="100%">
-  </a>
-</p>
-
 <h1 align="center">quirq</h1>
 
 <p align="center">
@@ -16,6 +10,12 @@
   <a href="https://github.com/quirq-ai/xo-space#quick-start"><strong>Run Space locally</strong></a> ·
   <a href="https://docs.xo.builders/">Documentation</a> ·
   <a href="https://www.quirq.ai/">Website</a>
+</p>
+
+<p align="center">
+  <a href="https://www.quirq.ai/">
+    <img src="https://raw.githubusercontent.com/quirq-ai/.github/main/profile/assets/quirq-banner.png" alt="A glass ribbon refracting light into the quirq spectrum" width="100%">
+  </a>
 </p>
 
 ## A place for the work
