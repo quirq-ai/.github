@@ -10,4 +10,4 @@
 
 <!-- Include visual evidence when useful, plus any compatibility concerns, follow-up work, or documentation changes. Remove this section if it does not apply. -->
 
-<!-- Follow this repository's contribution guide and target branch. XO Space changes target development; .github changes target main. Never include secrets or private data. -->
+<!-- Follow this repository's contribution guide and target branch. XO Space and .github changes target main (XO Space's `development` is a maintainers' staging branch). Never include secrets or private data. -->

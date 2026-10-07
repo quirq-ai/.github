@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://app.xo.builders/"><strong>Open the cloud app ↗</strong></a> ·
   <a href="https://github.com/quirq-ai/xo-space#quick-start"><strong>Run Space locally</strong></a> ·
-  <a href="https://docs.xo.builders/">Documentation</a> ·
+  <a href="https://docs.quirq.dev/">Documentation</a> ·
   <a href="https://www.quirq.ai/">Website</a>
 </p>
 
@@ -35,7 +35,7 @@ Agent work spans repositories, runtimes and sessions. Quirq brings the environme
 
 Space provides the environment layer; Swarm provides the hosted management route. Hosted access and available applications depend on your account and environment.
 
-Space has execution adapters for **Claude Code, Codex, OpenClaw, Hermes and Antigravity**. Session telemetry currently aggregates **Claude Code, Codex and Cursor**, with available data varying by runtime. See the [supported agents](https://github.com/quirq-ai/xo-space#supported-agents) for setup details.
+Space has execution adapters for **Claude Code, Codex, OpenClaw, Hermes and Antigravity**, and partial support for **Grok Bot**. Session telemetry currently aggregates **Claude Code, Codex and Cursor**, with available data varying by runtime. See the [supported agents](https://github.com/quirq-ai/xo-space#supported-agents) for setup details.
 
 ### Try Space on your machine
 

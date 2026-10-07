@@ -20,7 +20,7 @@ Search existing issues and pull requests before starting. Small fixes can go str
 3. Run the relevant checks. For documentation, verify links and rendered formatting; for code, exercise the affected behavior and follow the repository's test requirements.
 4. Open a pull request with the reason for the change, a related issue if there is one, and what you verified. Call out anything you could not check. Include screenshots when they help explain a visual change.
 
-**XO Space:** branch from and target `development`; `main` is the release branch. Follow its [contribution guide](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) for setup and required checks.
+**XO Space:** branch from and target `main`; `development` is the maintainers' staging branch, so do not target it. Follow its [contribution guide](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md) for setup and required checks.
 
 **This `.github` repository:** target `main`. Profile, routing, and community-file changes should keep public links accurate and inherited guidance useful across repositories.
 

@@ -2,7 +2,7 @@
 
 The public organization profile and shared community guidelines for [quirq-ai](https://github.com/quirq-ai).
 
-**Looking for the product?** [Run XO Space locally](https://github.com/quirq-ai/xo-space#quick-start), [open the hosted app](https://app.xo.builders/), or [read the documentation](https://docs.xo.builders/).
+**Looking for the product?** [Run XO Space locally](https://github.com/quirq-ai/xo-space#quick-start), [open the hosted app](https://app.xo.builders/), or [read the documentation](https://docs.quirq.dev/).
 
 ## What lives here
 
@@ -36,4 +36,4 @@ python3 -m venv .venv
 
 The check validates local Markdown links, profile assets and GitHub configuration. Public destination checks and visual review are separate: follow the [maintenance checklist](docs/maintaining.md#before-merging).
 
-Open pull requests against **main**. Changes become the organization profile and eligible repository defaults when merged. XO Space has its own [contribution workflow](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md), including a different target branch.
+Open pull requests against **main**. Changes become the organization profile and eligible repository defaults when merged. XO Space has its own [contribution workflow](https://github.com/quirq-ai/xo-space/blob/main/CONTRIBUTING.md).
