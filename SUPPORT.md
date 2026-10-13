@@ -1,6 +1,6 @@
 # Get help with quirq
 
-Start with the repository's README and [XO Space documentation](https://docs.quirq.dev/). A repository's own support instructions take precedence over this shared guide.
+Start with the repository's README, the [quirq docs](https://docs.quirq.dev/) for qq, or the [XO docs](https://docs.xo.builders/) for XO Space and XO Cloud. A repository's own support instructions take precedence over this shared guide.
 
 | You need help with | Where to go |
 | --- | --- |
