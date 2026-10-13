@@ -2,9 +2,9 @@
 
 ## Editorial structure
 
-The organization profile is a front door: explain the work environment, offer local and hosted routes, map the useful public repositories, and show people how to contribute or get help. Product setup detail belongs in the product repository. Research belongs in a clearly identified research section.
+The organization profile is a short front door: say what quirq is (an autonomous swarm that builds and ships software, running on XO Cloud), offer ways to run your own, and link the docs, the main repositories and how to get help. Keep it short; product setup detail belongs in the product repository.
 
-The profile uses Quirq's existing spectrum artwork and native GitHub text and tables. It avoids metric badges, autoplay media and third-party image services. Product names follow the current sources: **XO Space** is the environment engine and UI; **XO Swarm** is the hosted management application. The hosted application still uses the `app.xo.builders` domain.
+The profile uses Quirq's existing spectrum artwork and native GitHub text. Button rows are plain text links separated by "·": the quirq website shows such a row as app icons, and shows every image full width. It avoids metric badges, autoplay media and third-party image services. Product names follow the current sources: **XO Space** is the environment engine and UI; **XO Cloud** (`app.xo.builders`) is the hosted application where quirq runs and where you run your own.
 
 ## Reference review
 
@@ -26,7 +26,7 @@ OpenClaw's product README is the relevant visual reference: its organization `.g
 - Keep execution support separate from watcher and telemetry support. Do not promise every field for every runtime.
 - Describe the quirq measurement model as research. Tokens, session counts and file activity do not establish verified useful output.
 - Check the hosted entry and offer before changing its call to action. Do not promise a free tier, a setup time or deployment parity without current evidence.
-- `quirq_ai` contains the website and research presentation. `environment` had only a placeholder README at review time, so it is not a featured implementation destination.
+- `website` is the quirq website (www.quirq.dev); `quirq_ai` serves the installer (www.quirq.ai). `environment` had only a placeholder README at review time, so it is not a featured implementation destination.
 - Use existing public contacts. `team@xo.builders` is the established team address; no delivery, response-time or security-service guarantee is implied by listing it.
 - Add screenshots only with a source revision, capture date, privacy review and a visible statement when the data is fictional. The present header is brand artwork.
 
@@ -50,4 +50,4 @@ OpenClaw's product README is the relevant visual reference: its organization `.g
 
 ## Organization settings follow-up
 
-Repository files cannot change the organization's description or pinned projects. A suitable description is **Agent work environments, from your laptop to the cloud.** Suggested first pins are `xo-space`, `docs` and `quirq_ai`. Verify those settings separately before considering the wider organization presentation aligned; this repository makes no automatic changes to them.
+Repository files cannot change the organization's description or pinned projects. A suitable description is **An autonomous swarm that builds and ships software.** Suggested first pins are `qq`, `xo-space` and `website`. Verify those settings separately before considering the wider organization presentation aligned; this repository makes no automatic changes to them.

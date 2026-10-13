@@ -2,7 +2,7 @@
 
 The public organization profile and shared community guidelines for [quirq-ai](https://github.com/quirq-ai).
 
-**Looking for the product?** [Run XO Space locally](https://github.com/quirq-ai/xo-space#quick-start), [open the hosted app](https://app.xo.builders/), or [read the documentation](https://docs.quirq.dev/).
+**Looking for quirq?** [Run your own swarm on XO Cloud](https://app.xo.builders/), or read the [quirq docs](https://docs.quirq.dev/) and the [XO docs](https://docs.xo.builders/).
 
 ## What lives here
 
