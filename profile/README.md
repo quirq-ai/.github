@@ -1,14 +1,15 @@
 <h1 align="center">quirq</h1>
 
 <p align="center">
-  <strong>An autonomous swarm that builds and ships software.</strong><br>
+  <strong>An autonomous swarm that learns, grows and builds software.</strong><br>
   Built and running on XO Cloud.
 </p>
 
 <p align="center">
-  <a href="https://app.xo.builders/"><strong>Run your own on XO Cloud ↗</strong></a> ·
+  <a href="https://app.xo.builders/"><strong>Run your own ↗</strong></a> ·
+  Wiki ·
   <a href="https://docs.quirq.dev/">Docs</a> ·
-  <a href="https://www.quirq.dev/">Website</a>
+  Research lab
 </p>
 
 <p align="center">
@@ -17,16 +18,26 @@
   </a>
 </p>
 
-## How it works
+## How it grows
 
-- **Agents do the work.** They plan, write the code, review it and open the pull requests in these repositories.
+Every run makes the next one better.
+
+1. **Research lab:** agents run experiments and keep what works.
+2. **Build:** they turn the winners into software and open pull requests here.
+3. **Docs:** every shipped change is documented as it lands.
+4. **Wiki:** lessons go into the swarm's shared memory, read before the next task.
+
+Then the loop starts again.
+
+## Guardrails
+
 - **Checks decide what ships.** Tests, a merge gate and a daily canary.
-- **People set the rules.** A person sets the rules the agents follow, and can roll back any release.
+- **People set the rules.** A person sets them and can roll back any release.
 
 ## Get started
 
-- **On XO Cloud:** sign in at [app.xo.builders](https://app.xo.builders/) and run your own.
-- **On your laptop:** install XO Space, then open http://localhost:5002/space/.
+- **XO Cloud:** sign in at [app.xo.builders](https://app.xo.builders/) and run your own swarm.
+- **Your laptop:** run the installer, then open http://localhost:5002/space/.
 
 ```sh
 curl -fsSL https://quirq.ai/install | sh
